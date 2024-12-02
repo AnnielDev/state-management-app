@@ -1,7 +1,7 @@
-import { Image, StyleSheet, Platform } from "react-native";
+import { Image, StyleSheet, Platform, View } from "react-native";
 
 export default function HomeScreen() {
-  return <></>;
+  return <View></View>;
 }
 
 const styles = StyleSheet.create({});

@@ -16,8 +16,10 @@ export default function BaseScreen({ children, title }: Props) {
 
 const styles = StyleSheet.create({
   container: {
+    flex:1,
     paddingTop: Constants.statusBarHeight,
     paddingHorizontal: 20,
+    backgroundColor:'#252b37'
   },
   title: {
     fontFamily: "bold",
